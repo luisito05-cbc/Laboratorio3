@@ -36,7 +36,7 @@ namespace Ejercicio1_Lab3
 
         public override string ToString()
         {
-            return $"Las medidas son: largo {Largo} - ancho {Ancho} - altura {Altura}"; 
+            return $"\n Datos de la mesa:\n Largo: {Largo} cm\n Ancho: {Ancho} cm\n Altura: {Altura} cm\n Material: {Material.Nombre}\n Pais Origen: {Material.PaisOrigen}\n Precio: ${Precio}  "; 
         }
 
     }

@@ -4,13 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Mesa m1 = new Mesa(10.5, 5, 2.2, new Material("Madera", "Brasil"), 15000);
+            Mesa m1 = new Mesa(60, 50, 2.8, new Material("Maromol", "Nigeria"), 30000);
 
             Console.WriteLine(m1);
-
-            Console.WriteLine("Prueba GITHUB");
-            //Probando desde github
             Console.ReadKey();
+            
         }
     }
 }
