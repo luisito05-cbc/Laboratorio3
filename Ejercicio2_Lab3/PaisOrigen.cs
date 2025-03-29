@@ -1,20 +1,20 @@
 namespace Ejercicio2_Lab3
 {
-    public class Pais
+    public class PaisOrigen
     {
         public int Id { get; set;}
         public static int UltimoID { get; set; } = 1;
         public string Nombre { get; set; }
-        public int  Codigo { get; set; }
+        public string  Codigo { get; set; }
 
 
-        public Pais()
+        public PaisOrigen()
         {
             Id = UltimoID;
             UltimoID++;
         }
 
-        public Pais(string nombre, int codigo)
+        public PaisOrigen(string nombre, string codigo)
         {
             Id = UltimoID;
             UltimoID++;

@@ -32,6 +32,6 @@ public class Television
 
     public override string ToString()
     {
-        return $"\n Informacion Televisor {Id} :\n Marca: {Marca.Id}- {Marca.PaisOrigen} - {Marca.Nombre}\n Modelo: {Modelo}\n Tamaño: {Tamanio}\n Es Smart: {EsSmart}\n Estado: {Estado}\n Nivel Volumen: {NivelVolumen}";
+        return $"\n Informacion Televisor {Id} :\n Marca: {Marca.Id} - {Marca.Nombre}\n Pais Origen: {Marca.PaisOrigen.Nombre} - ({Marca.PaisOrigen.Codigo})\n Modelo: {Modelo}\n Tamaño: {Tamanio}\n Es Smart: {EsSmart}\n Estado: {Estado}\n Nivel Volumen: {NivelVolumen}";
     }
 }

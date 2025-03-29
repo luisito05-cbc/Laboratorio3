@@ -5,7 +5,7 @@ public class Marca
     public int Id { get; set; }
     public static int UltimoId { get; set; } = 1;
     public string Nombre { get; set; }
-    public string PaisOrigen { get; set; }
+    public PaisOrigen PaisOrigen { get; set; }
 
 
     public Marca()
@@ -14,7 +14,7 @@ public class Marca
         UltimoId++;
     }
 
-    public Marca(string nombre, string paisOrigen)
+    public Marca(string nombre, PaisOrigen paisOrigen)
     {
         Id = UltimoId;
         UltimoId++;
