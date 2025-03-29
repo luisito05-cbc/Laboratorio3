@@ -14,20 +14,20 @@ namespace  Ejercicio3_Lab3
                 Pelicula pelicula4 = new Pelicula("Supercool",Genero.Comedia,new Director("Greg","Mottola",new PaisDirector("Italia","Ita")),new DateTime(2007,02,04),new TimeSpan(1,53,0));
                 Pelicula pelicula5 = new Pelicula("El Origen ",Genero.Thriller,new Director("Christopher","Nolan",new PaisDirector("Estados Unidos","EE.UU")),new DateTime(2010,02,04),new TimeSpan(2,28,0));
 
-                Console.WriteLine($"Baja de catalogo - {pelicula1.FechaBajaCatalogo()}");
-                Console.WriteLine(pelicula1.AptaPublico());
+                // Console.WriteLine($"Baja de catalogo - {pelicula1.FechaBajaCatalogo()}");
+                // Console.WriteLine(pelicula1.AptaPublico());
 
                 
                 // Console.WriteLine($"Baja de catalogo - {pelicula2.FechaBajaCatalogo()}");
                 // Console.WriteLine(pelicula2.AptaPublico());
                 //
-                // Console.WriteLine(pelicula3.FechaBajaCatalogo());
+                // Console.WriteLine($"Baja de catalogo - {pelicula3.FechaBajaCatalogo()}");
                 // Console.WriteLine(pelicula3.AptaPublico());
                 //
-                // Console.WriteLine(pelicula4.FechaBajaCatalogo());
-                // Console.WriteLine(pelicula4.AptaPublico());
+                Console.WriteLine($"Baja de catalogo - {pelicula4.FechaBajaCatalogo()}");
+                Console.WriteLine(pelicula4.AptaPublico());
                 //
-                // Console.WriteLine(pelicula5.FechaBajaCatalogo());
+                // Console.WriteLine($"Baja de catalogo - {pelicula5.FechaBajaCatalogo()}");
                 // Console.WriteLine(pelicula5.AptaPublico());
                 
 

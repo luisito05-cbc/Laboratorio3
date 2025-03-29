@@ -36,11 +36,11 @@ public class Pelicula
 
     public string AptaPublico()
     {
-        if (Genero == Genero.Terror && Genero == Genero.Thriller && Genero == Genero.Suspenso)
+        if (Genero == Genero.Terror || Genero == Genero.Thriller || Genero == Genero.Suspenso)
         {
             return $"La pelicula {Titulo} es Apta para mayores de 13 años";
         }
-        return $"La pelicula {Titulo}, es Apta para todo publico";
+        return $"La pelicula {Titulo}, es Apta para TODO PUBLICO";
     }
 
     private void ValidarTitulo()
