@@ -18,14 +18,14 @@ namespace  Ejercicio3_Lab3
                 // Console.WriteLine(pelicula1.AptaPublico());
 
                 
-                // Console.WriteLine($"Baja de catalogo - {pelicula2.FechaBajaCatalogo()}");
-                // Console.WriteLine(pelicula2.AptaPublico());
+                Console.WriteLine($"Baja de catalogo - {pelicula2.FechaBajaCatalogo()}");
+                Console.WriteLine(pelicula2.AptaPublico());
                 //
                 // Console.WriteLine($"Baja de catalogo - {pelicula3.FechaBajaCatalogo()}");
                 // Console.WriteLine(pelicula3.AptaPublico());
                 //
-                Console.WriteLine($"Baja de catalogo - {pelicula4.FechaBajaCatalogo()}");
-                Console.WriteLine(pelicula4.AptaPublico());
+                // Console.WriteLine($"Baja de catalogo - {pelicula4.FechaBajaCatalogo()}");
+                // Console.WriteLine(pelicula4.AptaPublico());
                 //
                 // Console.WriteLine($"Baja de catalogo - {pelicula5.FechaBajaCatalogo()}");
                 // Console.WriteLine(pelicula5.AptaPublico());
